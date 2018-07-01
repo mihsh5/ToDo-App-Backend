@@ -17,7 +17,12 @@ const upload = multer();
 const app = express();
 
 const corsOptions = {
-  origin: ['https://1vz2zrvpq4.codesandbox.io', 'https://v3963rqvly.codesandbox.io']
+  origin: [
+    'https://1vz2zrvpq4.codesandbox.io',
+    'https://v3963rqvly.codesandbox.io',
+    'https://6x7197w07k.codesandbox.io',
+    'https://5z36y4mzjn.codesandbox.io',
+  ]
 };
 
 app.use(cors(corsOptions));

@@ -11,7 +11,7 @@ function logIn({userName, password}, response) {
       } else {
         if(document.password === password) {
           response.status(200).send({
-            response: 'Ok',
+            response: "LoggedIn",
             userId: document._id,
           });
         } else {
@@ -31,7 +31,7 @@ function addUser(userDetails, response) {
     } else {
       console.log(result);
       response.status(200).send({
-        response: "Ok",
+        response: "Added",
         newUser: {
           id: result._id,
           userName: result.userName,
