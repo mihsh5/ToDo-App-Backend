@@ -22,6 +22,7 @@ const corsOptions = {
     'https://v3963rqvly.codesandbox.io',
     'https://6x7197w07k.codesandbox.io',
     'https://5z36y4mzjn.codesandbox.io',
+    'https://03jp8v55rv.codesandbox.io',
   ]
 };
 
