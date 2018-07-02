@@ -20,7 +20,10 @@ function addToDo(toDoToAdd, response) {
 }
 
 function retrieveToDos(userDetails, response) {
-  ToDosModel.find(userDetails, (error, result) => {
+  const toDosToBeFetched = {
+    userId: userDetails._id,
+  };
+  ToDosModel.find(toDosToBeFetched, (error, result) => {
     if (error) {
       console.log(`Couldn't fetch the ToDos because of the error: ${error}`);
       response.status(500).send({response: "Couldn't fetch the ToDos"});
