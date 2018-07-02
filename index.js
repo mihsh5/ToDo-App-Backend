@@ -20,7 +20,7 @@ const corsOptions = {
   origin: [
     'https://5z36y4mzjn.codesandbox.io',
     'https://03jp8v55rv.codesandbox.io',
-    'https://zen-morse-23cf73.netlify.com',
+    'https://mihirs-todo-123.netlify.com',
   ]
 };
 
